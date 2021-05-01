@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* login */
+
+.bg-img{
+  background: url("https://cdn.shopify.com/s/files/1/0083/0586/8918/products/N10_Manhattan_skyline_from_above_at_the_sundown_New_York_City_2048x.jpg?v=1542326803");
+}
+
+.content{
+  position: relative;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: relative;
+  z-index: 999;
+  width: 330px;
+  text-align: center;
+  padding: 60px 32px;
+  background: rgba(255, 255, 255, 0.04); 
+  box-shadow: -1px 5px 28px 0px rgba(0,0,0,0,7)
+}
